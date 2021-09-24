@@ -1,0 +1,14 @@
+{
+  "name": "chat-backend",
+  "version": "1.0.0",
+  "description": "React chay backend",
+  "main": "index.js",
+  "author": "Alina ",
+  "license": "MIT",
+  "scripts": {
+    "start": "json-server --watch db.json --port 9000"
+  },
+  "devDependencies": {
+    "json-server": "^0.16.3"
+  }
+}
