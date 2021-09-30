@@ -1,7 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9ef34027-79c4-4a76-9a5e-f36a30f54b24" name="Default Changelist" comment="adding Auth page" />
+    <list default="true" id="9ef34027-79c4-4a76-9a5e-f36a30f54b24" name="Default Changelist" comment="adding fetching Dialogs and Messages. Adding front features.">
+      <change afterPath="$PROJECT_DIR$/chat-front/src/components/ChatInput/ChatInput.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-front/src/components/ChatInput/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-front/src/containers/Messages.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-front/src/redux/actions/dialogs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-front/src/redux/actions/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-front/src/redux/actions/messages.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-front/src/redux/reducers/dialogs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-front/src/redux/reducers/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-front/src/redux/reducers/messages.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-front/src/redux/store.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chat-front/src/utils/api/messages.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-back/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/chat-back/db.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-front" beforeDir="false" afterPath="$PROJECT_DIR$/chat-front" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-front/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/chat-front/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-front/src/components/DialogItem/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/chat-front/src/components/DialogItem/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-front/src/components/Dialogs/Dialogs.scss" beforeDir="false" afterPath="$PROJECT_DIR$/chat-front/src/components/Dialogs/Dialogs.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-front/src/components/Dialogs/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/chat-front/src/components/Dialogs/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-front/src/components/Message/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/chat-front/src/components/Message/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-front/src/components/Messages/Messages.scss" beforeDir="false" afterPath="$PROJECT_DIR$/chat-front/src/components/Messages/Messages.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-front/src/components/Messages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/chat-front/src/components/Messages/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-front/src/components/Time/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/chat-front/src/components/Time/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-front/src/components/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/chat-front/src/components/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-front/src/containers/Dialogs.js" beforeDir="false" afterPath="$PROJECT_DIR$/chat-front/src/containers/Dialogs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-front/src/containers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/chat-front/src/containers/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-front/src/core/axios.js" beforeDir="false" afterPath="$PROJECT_DIR$/chat-front/src/core/axios.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-front/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/chat-front/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-front/src/pages/Home/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/chat-front/src/pages/Home/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-front/src/styles/layouts/_chat.sccs" beforeDir="false" afterPath="$PROJECT_DIR$/chat-front/src/styles/layouts/_chat.sccs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-front/src/utils/api/dialogs.js" beforeDir="false" afterPath="$PROJECT_DIR$/chat-front/src/utils/api/dialogs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-front/src/utils/api/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/chat-front/src/utils/api/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-front/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/chat-front/yarn.lock" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +50,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/chat-front" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -38,7 +72,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/chat-front/src/components" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -49,12 +83,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/components" />
-      <recent name="$PROJECT_DIR$/src/components/Avatar" />
-      <recent name="$PROJECT_DIR$/src/assets/images" />
-      <recent name="$PROJECT_DIR$/src/modules" />
+      <recent name="$PROJECT_DIR$/chat-front/src/components" />
+      <recent name="$PROJECT_DIR$/chat-front/src/containers" />
+      <recent name="$PROJECT_DIR$/chat-front/src/utils/api" />
+      <recent name="$PROJECT_DIR$/chat-front/src/redux/reducers" />
+      <recent name="$PROJECT_DIR$/chat-front/src/redux/actions" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/chat-front/src/redux" />
       <recent name="$PROJECT_DIR$/src/assets/audio" />
       <recent name="$PROJECT_DIR$/src/assets" />
       <recent name="$PROJECT_DIR$/src" />
@@ -97,7 +133,8 @@
       <workItem from="1630343071281" duration="206000" />
       <workItem from="1630474011467" duration="16993000" />
       <workItem from="1632333181447" duration="937000" />
-      <workItem from="1632472285504" duration="630000" />
+      <workItem from="1632472285504" duration="8242000" />
+      <workItem from="1632759861670" duration="14780000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1621356157618</created>
@@ -134,6 +171,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit" />
     <MESSAGE value="adding Auth page" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding Auth page" />
+    <MESSAGE value="adding fetching Dialogs and Messages. Adding front features." />
+    <option name="LAST_COMMIT_MESSAGE" value="adding fetching Dialogs and Messages. Adding front features." />
   </component>
 </project>
